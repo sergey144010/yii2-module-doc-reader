@@ -39,6 +39,7 @@ $config = [
             'class' => 'app\modules\sergey144010\docReader\Module',
             'docPath' => 'path\to\yii2\docs\guide',
         ],
+    ],
 ...
 ```
 # Usage
