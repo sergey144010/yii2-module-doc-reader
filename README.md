@@ -12,6 +12,24 @@ You must have install application like [yii2-app-basic](https://github.com/yiiso
 1. Go to the root directory of your project and run:
 `composer require "erusev/parsedown": "*"`
 2. Copy this repository to the root of your project.
+Or do `git clone https://github.com/sergey144010/yii2-module-doc-reader` and create the following folder structure.
+```
+-your-application
+  |
+  |-...
+  |-controllers
+  |-models
+  |-views
+  |-...
+  |-modules
+  |    |
+  |    |-sergey144010
+  |          |
+  |          |-docReader
+  |               |
+  |               ...
+  ...
+```
 3. Configure your application configuration as follows:
 ```
 $config = [
